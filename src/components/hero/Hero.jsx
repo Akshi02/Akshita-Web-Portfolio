@@ -1,3 +1,4 @@
+import React from "react";
 import "./hero.scss";
 import { motion } from "framer-motion";
 
@@ -23,6 +24,7 @@ const textVariants = {
     },
   },
 };
+
 const sliderVariants = {
   initial: {
     x: 0,
@@ -31,13 +33,18 @@ const sliderVariants = {
     x: "-220%",
     transition: {
       repeat: Infinity,
-      repeatType:"mirror",
+      repeatType: "mirror",
       duration: 20,
     },
   },
 };
 
 const Hero = () => {
+  const handleCVButtonClick = () => {
+    const url = "https://drive.google.com/file/d/17RXU2Y6mDUZC3A26eGjMJUlqnJQW4sqC/preview";
+    window.open(url, '_blank');
+  };
+
   return (
     <div className="hero">
       <div className="wrapper">
@@ -53,13 +60,16 @@ const Hero = () => {
           </motion.h1>
           <motion.div className="buttons">
             <a href="">
-            <motion.button variants={textVariants}>
-              Checkout this Video!
+              <motion.button variants={textVariants}>
+                Checkout this Video!
+              </motion.button>
+            </a>
+            <motion.button
+              variants={textVariants}
+              onClick={handleCVButtonClick}
+            >
+              Check my CV!
             </motion.button>
-            </a>
-            <a href="">
-            <motion.button variants={textVariants}>Check my CV!</motion.button>
-            </a>
           </motion.div>
           <motion.img
             variants={textVariants}

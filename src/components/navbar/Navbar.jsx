@@ -8,20 +8,20 @@ const Navbar = () => {
             {/* Sidebar */}
             <Sidebar />
             <div className="wrapper">
-                <motion.span 
+                {<motion.span 
                 initial={{opacity:0, scale:0.5}} 
                 animate={{opacity:1, scale:1}} 
                 transition={{duration:0.5}}
                 >
-                    Akshita Bhatia
-                </motion.span>
+                    
+                </motion.span>}
                 <motion.div className="social"
                 initial={{opacity:0, scale:0.5}} 
                 animate={{opacity:1, scale:1}} 
                 transition={{duration:0.5}}>
-                    <a href="#"><img src="/Linkedin.png" alt="Linkedin" /></a>
-                    <a href="#"><img src="/github2.png" alt="Github" /></a>
-                    <a href="#"><img src="/discord.png" alt="Discord" /></a>
+                    <a href="https://www.linkedin.com/in/akshi-bhatia-1a6a9922a/"><img src="/Linkedin.png" alt="Linkedin" /></a>
+                    <a href="https://github.com/Akshi02"><img src="/github2.png" alt="Github" /></a>
+                    <a href="https://discord.com/users/akshilicious"><img src="/discord.png" alt="Discord" /></a>
                     <a href="#"><img src="/youtube.png" alt="Youtube" /></a>
                 </motion.div>
             </div>
