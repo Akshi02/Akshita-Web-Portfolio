@@ -4,14 +4,7 @@ import Test from "./Test";
 
 const App = () => {
   return <div>
-    <Test />
-    <Test />
-  </div>;
-};
-
-export default App;
-
-{/* <section>
+    <section>
       <Navbar />
     </section>
     <section>Parallax</section>
@@ -20,4 +13,8 @@ export default App;
     <section>Portfolio1</section>
     <section>Portfolio2</section>
     <section>Portfolio3</section>
-    <section>Contact</section>*/}
+    <section>Contact</section>
+  </div>;
+};
+
+export default App;
