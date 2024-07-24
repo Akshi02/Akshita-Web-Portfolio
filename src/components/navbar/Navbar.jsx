@@ -7,10 +7,10 @@ const Navbar = () => {
             <div className="wrapper">
                 <span>Akshita Bhatia</span>
                 <div className="social">
-                    <a href="#"><img src="/facebook.png" alt="" /></a>
-                    <a href="#"><img src="/instagram.png" alt="" /></a>
+                    <a href="#"><img src="/Linkedin.png" alt="" /></a>
+                    <a href="#"><img src="/github2.png" alt="" /></a>
+                    <a href="#"><img src="/discord.png" alt="" /></a>
                     <a href="#"><img src="/youtube.png" alt="" /></a>
-                    <a href="#"><img src="/dribbble.png" alt="" /></a>
                 </div>
             </div>
         </div>
