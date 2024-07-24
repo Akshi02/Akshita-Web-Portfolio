@@ -47,15 +47,19 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>HARVEY TYLER</motion.h2>
+          <motion.h2 variants={textVariants}>AKSHITA BHATIA</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web developer and UI designer
+            Creative Tech Enthusiast
           </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
+          <motion.div className="buttons">
+            <a href="">
             <motion.button variants={textVariants}>
-              See the Latest Works
+              Checkout this Video!
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            </a>
+            <a href="">
+            <motion.button variants={textVariants}>Check my CV!</motion.button>
+            </a>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -71,7 +75,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Writer Content Creator Influencer
+        AI CS BIG DATA GRADUATE
       </motion.div>
       <div className="imageContainer">
         <img src="/hero.png" alt="" />
