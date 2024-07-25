@@ -5,27 +5,31 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Commerce",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "First E-Portfolio",
+    img: "\First_Eprofile.png",
+    desc: "I created my first website using HTML, JavaScript, CSS, AJAX, XSLT, and XML. Now, I'm developing a more professional site. Both reflect my personality. I'd love your feedback!",
+    link: "https://akshi02.github.io/",
   },
   {
     id: 2,
-    title: "Next.js Blog",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Deepfake Detection",
+    img: "\Deepfake.png",
+    desc: "My team and I combined a model with an open-source app to stop deepfake audio scams for my senior year project. In my ML work, I experimented with various models and worked with XGBOOST. Look it over!",
+    link: "https://github.com/Akshi02/321-Grad-Project-Submission-1",
   },
   {
     id: 3,
-    title: "Vanilla JS App",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Gearsbot RL",
+    img: "\Gearsbot.png",
+    desc: "This project combines robotics and reinforcement learning! In an effort to mimic a maze runner robot, my team and I have been using Python and Gearsbot to try and get to one of the colored checkpoints.",
+    link: "https://github.com/Akshi02/CSCI218_WEBOTS_PROJECT",
   },
   {
     id: 4,
-    title: "Music App",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "POS Supermart App",
+    img: "\POS.png",
+    desc: "I developed a Point-of-sale Express application for Supermart using object-oriented C++ programming for my project. It displays the items that have been purchased, computes the total cost, and takes payments in Dhs, $, or €. The only currency returned is Dhs.",
+    link: "https://github.com/Akshi02/POS-Express-Supermart-App",
   },
 ];
 
@@ -48,7 +52,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <button><a href={item.link} target="_blank" rel="noopener noreferrer">See Demo</a></button>
           </motion.div>
         </div>
       </div>
