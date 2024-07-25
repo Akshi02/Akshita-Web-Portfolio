@@ -88,7 +88,7 @@ const Hero = () => {
         AI CS BIG DATA GRADUATE
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/Akshita2.png" alt="" />
       </div>
     </div>
   );
