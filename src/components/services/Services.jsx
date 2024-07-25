@@ -52,7 +52,7 @@ const Services = () => {
           <h1>
             & lot of <motion.b whileHover={{color:"orange"}}>Skills</motion.b>
           </h1>
-          <button>WHAT WE DO?</button>
+          <button><a href="https://www.linkedin.com/in/akshi-bhatia-1a6a9922a/details/certifications/" target="_blank" rel="noopener noreferrer">Let's connect!</a></button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,53 +60,60 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>IBM Data Fundamentals</h2>
+          <br />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          This course was beneficial in helping me grasp the idea of 
+          using IBM Watson Studio to clean, improve, and visualize data. 
+          I learned data wrangling, analysis, and Tableau software visualization skills.
           </p>
-          <button>Go</button>
+          <br />
+          <button><a href="https://www.credly.com/badges/2c4156f7-3288-4d5d-9856-4a8969f92863/linked_in_profile" target="_blank" rel="noopener noreferrer">Go</a></button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>IBM Data Science Practioner</h2>
+          <br />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          This course helped me understand technical topics, design thinking, 
+          and open source tool application. 
+          I gained the skills to apply Data Science concepts and technologies 
+          to real-world scenarios, making me well-prepared for educational purposes.
           </p>
-          <button>Go</button>
+          <br />
+          <button><a href="https://www.credly.com/badges/2ceb88fb-f39a-457c-87b2-b5e67786c544/linked_in_profile" target="_blank" rel="noopener noreferrer">Go</a></button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Team Essentials for AI</h2>
+          <br />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            I skillfully applied Enterprise Design Thinking principles and 
+            activities to design responsible AI systems with a deliberate 
+            focus on human-centric solutions. This experience allowed me to 
+            ensure the AI systems were innovative and considerate of people.
           </p>
-          <button>Go</button>
+          <br />
+          <button><a href="https://www.credly.com/badges/593823f0-e0c0-4d3c-ad53-b69343df7976/linked_in_profile" target="_blank" rel="noopener noreferrer">Go</a></button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Enterprise Design Thinking</h2>
+          <br />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            I acquired a deep understanding of applying Enterprise Design Thinking 
+            and its value. As a Practitioner, I integrate these principles into my 
+            daily work, leveraging them to enhance my projects and outcomes through 
+            human-centric design, creative problem-solving, and strategic thinking.
           </p>
-          <button>Go</button>
+          <br />
+          <button ><a href="https://www.credly.com/badges/487ad5eb-7824-4bb5-aaa1-ad6b18d1cab0/linked_in_profile" target="_blank" rel="noopener noreferrer">Go</a></button>
         </motion.div>
       </motion.div>
     </motion.div>
