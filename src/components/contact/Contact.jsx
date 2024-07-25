@@ -62,11 +62,11 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Linkedin</h2>
-          <span>w</span>
+          <span><a href="https://www.linkedin.com/in/akshi-bhatia-1a6a9922a/" target="_blank"  rel="noopener noreferrer">Akshita Bhatia</a></span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Discord</h2>
-          <span>+1 234 5678</span>
+          <span>akshilicious</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
