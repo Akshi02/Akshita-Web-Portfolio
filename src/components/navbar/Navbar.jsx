@@ -22,7 +22,7 @@ const Navbar = () => {
                     <a href="https://www.linkedin.com/in/akshi-bhatia-1a6a9922a/"><img src="/Linkedin.png" alt="Linkedin" /></a>
                     <a href="https://github.com/Akshi02"><img src="/github2.png" alt="Github" /></a>
                     <a href="https://discord.com/users/akshilicious"><img src="/discord.png" alt="Discord" /></a>
-                    <a href="#"><img src="/youtube.png" alt="Youtube" /></a>
+                    <a href="https://youtu.be/jfbPEHrsbpg?si=sswx8sLQzcXix1RV" target="_blank"  rel="noopener noreferrer"><img src="/youtube.png" alt="Youtube" /></a>
                 </motion.div>
             </div>
         </div>

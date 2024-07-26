@@ -59,7 +59,7 @@ const Hero = () => {
           CS Graduate Tech Enthusiast
           </motion.h1>
           <motion.div className="buttons">
-            <a href="">
+            <a href="https://youtu.be/jfbPEHrsbpg?si=sswx8sLQzcXix1RV" target="_blank"  rel="noopener noreferrer">
               <motion.button variants={textVariants}>
                 Checkout this Video!
               </motion.button>
